@@ -3,7 +3,7 @@
 import { Container } from "@/components/ui/Container";
 import { CTAButton } from "@/components/ui/CTAButton";
 import { FadeIn } from "@/components/animations/FadeIn";
-import { Shield, User } from "lucide-react";
+import { Shield } from "lucide-react";
 
 export function About() {
   return (
@@ -72,10 +72,14 @@ export function About() {
               <div className="relative">
                 {/* Profile Card */}
                 <div className="rounded-3xl border border-cream-300/60 bg-white p-8 shadow-xl shadow-black/5">
-                  {/* Avatar placeholder */}
-                  <div className="mx-auto mb-6 flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-forest-700 to-forest-900">
-                    <User className="h-10 w-10 text-gold-400" />
-                  </div>
+                  {/* Avatar */}
+<div className="mx-auto mb-6 h-24 w-24 overflow-hidden rounded-full">
+  <img
+    src="/paden.jpg"
+    alt="Paden Wright"
+    className="h-full w-full object-cover"
+  />
+</div>
 
                   <div className="text-center">
                     <h3 className="text-xl font-bold text-forest-900">
