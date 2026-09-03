@@ -73,7 +73,7 @@ export function About() {
                 {/* Profile Card */}
                 <div className="rounded-3xl border border-cream-300/60 bg-white p-8 shadow-xl shadow-black/5">
                   {/* Avatar */}
-<div className="mx-auto mb-6 h-24 w-24 overflow-hidden rounded-full">
+<div className="mx-auto mb-6 h-40 w-40 overflow-hidden rounded-full sm:h-48 sm:w-48">
   <img
     src="/paden.jpg"
     alt="Paden Wright"
