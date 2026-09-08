@@ -23,7 +23,7 @@ const PAIN_POINTS = [
     icon: AlertTriangle,
     title: "Denied Claims",
     description:
-      "Claims are designed to fail the policyholder. Adjusters look for reasons to deny or minimize — it's literally their job.",
+      "Claims are designed to fail the policyholder. Adjusters look for reasons to deny or minimize, it's literally their job.",
   },
 ];
 

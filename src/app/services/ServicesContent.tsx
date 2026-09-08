@@ -51,7 +51,7 @@ const PROCESS_STEPS = [
       "Examine your insurance policy to understand actual coverage",
       "Review any offers or correspondence from your insurance company",
       "Assess whether you have a valid claim for more money",
-      "Give you honest feedback — even if we can't help",
+      "Give you honest feedback, even if we can't help",
     ],
     cta: "Schedule Your FREE Review",
     note: "If we determine that we cannot help you after you've signed a contract, we simply release you with no money owed, guaranteed.",
@@ -86,7 +86,7 @@ const PROCESS_STEPS = [
     description:
       "Insurance companies respond to one thing: bulletproof documentation they can't dismiss.",
     points: [
-      "Detailed photographic evidence — hundreds of high-resolution photos with annotations",
+      "Detailed photographic evidence: hundreds of high-resolution photos with annotations",
       "Comprehensive written damage report documenting all damage and its cause",
       "Accurate repair estimate using industry-standard software (Xactimate)",
       "Policy language analysis with specific coverage provisions",
@@ -102,11 +102,11 @@ const PROCESS_STEPS = [
       "This is where our insider knowledge makes the biggest difference.",
     points: [
       "Submit comprehensive claim package that makes denial nearly impossible",
-      "Handle all communication — you never talk to the adjuster again",
+      "Handle all communication, you never talk to the adjuster again",
       "Negotiate using insider tactics and pressure points",
       "Counter lowball offers with evidence they can't refute",
-      "Escalate when necessary — supervisors, appraisal clauses, legal pressure",
-      "Push for fast resolution — we move aggressively",
+      "Escalate when necessary: supervisors, appraisal clauses, legal pressure",
+      "Push for fast resolution, we move aggressively",
     ],
     highlight:
       "Insurance adjusters use confusion, delay, and intimidation to get homeowners to give up. Those tactics don't work on us because we know the playbook.",
@@ -201,7 +201,7 @@ const PROCESS_REASONS = [
     icon: Languages,
     title: "We Speak Their Language",
     description:
-      "Insurance policies are written in complex legal language designed to confuse. We speak it fluently — we know which provisions to cite, how to reframe claims, and when they're wrong.",
+      "Insurance policies are written in complex legal language designed to confuse. We speak it fluently, we know which provisions to cite, how to reframe claims, and when they're wrong.",
   },
   {
     icon: Handshake,

@@ -31,7 +31,7 @@ const FAQ_ITEMS = [
   {
     question: "What if my claim was denied?",
     answer:
-      "We've successfully reopened and won many denied claims. Denials are often based on incomplete documentation or misinterpretation of policy language — both things we know how to fix.",
+      "We've successfully reopened and won many denied claims. Denials are often based on incomplete documentation or misinterpretation of policy language, both things we know how to fix.",
   },
   {
     question: "Can I cancel my contract?",
@@ -211,7 +211,7 @@ export function FAQ() {
                   Still have questions?
                 </p>
                 <p className="mt-1.5 text-sm leading-relaxed text-forest-800/60">
-                  Our team is here to help. Get a free consultation — no
+                  Our team is here to help. Get a free consultation, no
                   pressure, no obligation.
                 </p>
                 <div className="mt-5">

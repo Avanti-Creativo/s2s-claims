@@ -16,7 +16,7 @@ export function About() {
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-forest-800/70">
             Many homeowners will never get what they&apos;re actually owed. It&apos;s
-            not their fault — they just haven&apos;t been taught how insurance
+            not their fault, they just haven&apos;t been taught how insurance
             companies really operate or what tactics adjusters use to minimize
             payouts.
           </p>

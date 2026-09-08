@@ -86,7 +86,7 @@ export function ContactContent() {
           </h1>
           <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-cream-200/60 sm:mt-5 sm:max-w-lg sm:text-base">
             Fill out the form below to schedule your FREE claim review. No
-            obligations, no pressure — just expert guidance.
+            obligations, no pressure, just expert guidance.
           </p>
         </div>
       </section>
@@ -316,7 +316,7 @@ export function ContactContent() {
                   <p className="mt-2 text-sm leading-relaxed text-forest-800/55">
                     This consultation is completely free and there&apos;s no
                     obligation to work with us. We&apos;ll give you honest
-                    feedback about your claim — even if we can&apos;t help,
+                    feedback about your claim, even if we can&apos;t help,
                     you&apos;ll walk away knowing more than you did before.
                   </p>
                 </div>

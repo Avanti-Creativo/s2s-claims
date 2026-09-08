@@ -8,7 +8,7 @@ import { Star, Quote } from "lucide-react";
 const TESTIMONIALS = [
   {
     quote:
-      "Testimonial coming soon — real client results from a homeowner who received their full settlement.",
+      "Testimonial coming soon, real client results from a homeowner who received their full settlement.",
     name: "Client Name",
     location: "Texas Homeowner",
     rating: 5,
@@ -17,7 +17,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Testimonial coming soon — real client results from a homeowner who had their denied claim reopened.",
+      "Testimonial coming soon, real client results from a homeowner who had their denied claim reopened.",
     name: "Client Name",
     location: "Texas Homeowner",
     rating: 5,
@@ -26,7 +26,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "Testimonial coming soon — real client results from a homeowner who received 4X their initial offer.",
+      "Testimonial coming soon, real client results from a homeowner who received 4X their initial offer.",
     name: "Client Name",
     location: "Texas Homeowner",
     rating: 5,

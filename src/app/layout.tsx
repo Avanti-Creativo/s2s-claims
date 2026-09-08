@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: "%s | S2S Claims",
   },
   description:
-    "Get your FULL insurance settlement without years of fighting. S2S Claims helps Texas homeowners get 3-5X more than initial offers. Free claim review — you only pay if we win.",
+    "Get your FULL insurance settlement without years of fighting. S2S Claims helps Texas homeowners get 3-5X more than initial offers. Free claim review, you only pay if we win.",
   keywords: [
     "public adjuster Texas",
     "insurance claim help Texas",
