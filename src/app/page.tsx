@@ -5,7 +5,7 @@ import { About } from "@/components/sections/About";
 import { WhatYouGet } from "@/components/sections/WhatYouGet";
 import { FreeReview } from "@/components/sections/FreeReview";
 import { Guarantee } from "@/components/sections/Guarantee";
-import { Testimonials } from "@/components/sections/Testimonials";
+//import { Testimonials } from "@/components/sections/Testimonials";
 import { WhyChooseUs } from "@/components/sections/WhyChooseUs";
 import { FAQ } from "@/components/sections/FAQ";
 import { FinalCTA } from "@/components/sections/FinalCTA";
@@ -20,7 +20,6 @@ export default function HomePage() {
       <WhatYouGet />
       <FreeReview />
       <Guarantee />
-      <Testimonials />
       <WhyChooseUs />
       <div id="faq">
         <FAQ />
