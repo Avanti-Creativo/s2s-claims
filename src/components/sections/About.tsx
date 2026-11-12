@@ -11,11 +11,11 @@ export function About() {
       <Container>
         <FadeIn className="mx-auto max-w-3xl text-center">
           <h2 className="font-display text-3xl font-bold leading-tight text-forest-900 sm:text-4xl md:text-5xl">
-            <span className="text-gold-600">90%</span> Of Homeowners Will Never
+            <span className="text-gold-600">90%</span> Of Home &amp; Business Owners Will Never
             Get Their Full Settlement Without The Right Help
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-forest-800/70">
-            Many homeowners will never get what they&apos;re actually owed. It&apos;s
+            Most home and business owners will never get what they&apos;re actually owed. It&apos;s
             not their fault, they just haven&apos;t been taught how insurance
             companies really operate or what tactics adjusters use to minimize
             payouts.
@@ -47,7 +47,7 @@ export function About() {
 
                 <p className="text-lg leading-relaxed text-forest-800/80">
                   That&apos;s why he became a public adjuster, to fight{" "}
-                  <span className="font-bold text-gold-600">FOR</span> homeowners
+                  <span className="font-bold text-gold-600">FOR</span> property owners
                   instead of against them.
                 </p>
 

@@ -32,6 +32,7 @@ import {
   Clock,
   FileCheck,
   Check,
+  Building2,
 } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -76,7 +77,7 @@ const PROCESS_STEPS = [
       "HVAC and system impacts",
     ],
     highlight:
-      "Most homeowners are owed 3–5X more because the insurance adjuster never saw the full extent of damage.",
+      "Most property owners are owed 3–5X more because the insurance adjuster never saw the full extent of damage.",
     dark: true,
   },
   {
@@ -133,7 +134,14 @@ const PROCESS_STEPS = [
 /*  Claim Types Data                                                   */
 /* ------------------------------------------------------------------ */
 
-const CLAIM_TYPES = [
+type ClaimType = {
+  icon: typeof CloudLightning;
+  title: string;
+  items?: string[];
+  description?: string;
+};
+
+const CLAIM_TYPES: ClaimType[] = [
   {
     icon: CloudLightning,
     title: "Storm & Hail Damage",
@@ -184,6 +192,12 @@ const CLAIM_TYPES = [
       "Fallen trees or objects",
     ],
   },
+  {
+    icon: Building2,
+    title: "Commercial Property Damage",
+    description:
+      "Offices, retail stores, warehouses, rental and multi-family properties. Every day your business sits damaged, you lose money. Commercial policies are longer and more complex, and carriers count on you not reading the fine print. We do.",
+  },
 ];
 
 /* ------------------------------------------------------------------ */
@@ -219,7 +233,7 @@ const DIFFERENTIATORS = [
   { icon: Shield, title: "Former Insurance Industry Insiders", description: "Insider knowledge is your advantage." },
   { icon: Trophy, title: "100+ Successful Claims", description: "Experience with even complex claims." },
   { icon: DollarSign, title: "$35K–$60K Average Increase", description: "3–5X more than initial offers." },
-  { icon: Clock, title: "Fast Resolution", description: "Most claims settled in 90 days." },
+  { icon: Clock, title: "Fast Resolution", description: "Our goal is to settle within 90 days of inspection." },
   { icon: FileCheck, title: "Complete Transparency", description: "No jargon, no surprises, no hidden fees." },
 ];
 
@@ -520,7 +534,7 @@ export function ServicesContent() {
               Our Proven Process
             </Badge>
             <h1 className="font-display text-4xl font-bold leading-tight text-cream-50 sm:text-5xl md:text-6xl">
-              How We Help Homeowners Get The Settlement They Deserve
+              How We Help Homeowners &amp; Business Owners Get The Settlement They Deserve
             </h1>
             <p className="mt-6 text-lg text-cream-200/60">
               Our proven process takes you from lowball offer to full settlement,
@@ -598,7 +612,7 @@ export function ServicesContent() {
               Types Of Claims We Handle
             </h2>
             <p className="mt-4 text-cream-200/60">
-              We specialize in property damage claims for homeowners.
+              We specialize in residential AND commercial property damage claims.
             </p>
           </FadeIn>
 
@@ -615,6 +629,12 @@ export function ServicesContent() {
                   <h3 className="text-lg font-bold text-cream-100">
                     {type.title}
                   </h3>
+                  {type.description && (
+                    <p className="mt-3 text-sm leading-relaxed text-cream-200/60">
+                      {type.description}
+                    </p>
+                  )}
+                  {type.items && (
                   <ul className="mt-3 space-y-1.5">
                     {type.items.map((item, j) => (
                       <li
@@ -626,6 +646,7 @@ export function ServicesContent() {
                       </li>
                     ))}
                   </ul>
+                  )}
                 </Card>
               </StaggerItem>
             ))}

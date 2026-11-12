@@ -26,7 +26,7 @@ const FAQ_ITEMS = [
   {
     question: "How long does the process take?",
     answer:
-      "Most claims are settled within 90 days once we get involved, which is often faster than if you continued fighting alone.",
+      "Our goal is to settle your claim within 90 days of our inspection. Every claim is different, but we never let the carrier stall. If they haven't paid fairly by then, we move your claim to the next step to hold them accountable.",
   },
   {
     question: "What if my claim was denied?",
@@ -42,6 +42,11 @@ const FAQ_ITEMS = [
     question: "Do you handle auto claims?",
     answer:
       "No we do not, but we will point you in the right direction to a company who does.",
+  },
+  {
+    question: "Do you handle commercial claims?",
+    answer:
+      'Yes. We handle residential and commercial property claims, from storefronts and offices to warehouses and rental properties. Same process, same "You Only Pay If We Win" guarantee.',
   },
   {
     question: "Do I have to be in Texas?",

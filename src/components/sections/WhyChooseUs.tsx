@@ -56,9 +56,9 @@ const FEATURES: {
     icon: Clock,
     title: "90-Day Resolution",
     description:
-      "We move quickly because we know you need this resolved so you can get your life back to normal.",
+      "Our goal is to settle within 90 days of inspecting your claim. If the carrier stalls, we escalate, so you can get your home or business back to normal.",
     stat: "90",
-    statLabel: "Day Average",
+    statLabel: "Day Goal",
   },
   {
     icon: MapPin,
@@ -179,7 +179,7 @@ export function WhyChooseUs() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="mt-6 font-display text-3xl font-bold leading-tight text-cream-50 sm:text-4xl md:text-5xl"
           >
-            Why Homeowners Choose{" "}
+            Why Home &amp; Business Owners Choose{" "}
             <span className="text-gold-400">S2S Claims</span>
           </motion.h2>
 

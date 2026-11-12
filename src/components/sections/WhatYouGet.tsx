@@ -21,7 +21,7 @@ const BENEFITS = [
   },
   {
     title: "Efficient Resolution",
-    description: "Most claims settled in 90 days",
+    description: "Our goal: settled within 90 days of inspection. If not, we escalate.",
   },
   {
     title: "Maximum Settlement",
