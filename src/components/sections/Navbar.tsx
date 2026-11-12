@@ -7,7 +7,7 @@ import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
-import { PHONE_NUMBER, PHONE_HREF } from "@/lib/utils";
+import { PHONE_NUMBER, PHONE_HREF, INTAKE_URL } from "@/lib/utils";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import gsap from "gsap";
@@ -142,7 +142,7 @@ export function Navbar() {
                 <Phone className="h-4 w-4" />
                 {PHONE_NUMBER}
               </a>
-              <Button href="/contact" size="default" showArrow={false}>
+              <Button href={INTAKE_URL} size="default" showArrow={false}>
                 Free Claim Review
               </Button>
             </div>
@@ -204,7 +204,7 @@ export function Navbar() {
                   <Phone className="h-4 w-4" />
                   {PHONE_NUMBER}
                 </a>
-                <Button href="/contact" size="lg" onClick={() => setMobileOpen(false)}>
+                <Button href={INTAKE_URL} size="lg" onClick={() => setMobileOpen(false)}>
                   Free Claim Review
                 </Button>
               </motion.div>

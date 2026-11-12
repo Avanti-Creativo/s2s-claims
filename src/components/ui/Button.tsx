@@ -67,8 +67,15 @@ export function Button({
   );
 
   if (href) {
+    const isExternal = /^https?:\/\//.test(href);
     return (
-      <motion.a href={href} className={classes} {...motionProps}>
+      <motion.a
+        href={href}
+        className={classes}
+        onClick={onClick}
+        {...(isExternal && { target: "_blank", rel: "noopener noreferrer" })}
+        {...motionProps}
+      >
         {content}
       </motion.a>
     );

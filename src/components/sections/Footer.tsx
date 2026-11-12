@@ -1,6 +1,6 @@
 import { Container } from "@/components/ui/Container";
 import { MapPin, Mail } from "lucide-react";
-import { EMAIL } from "@/lib/utils";
+import { EMAIL, INTAKE_URL } from "@/lib/utils";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -13,7 +13,7 @@ const FOOTER_LINKS = {
   Resources: [
     { label: "FAQ", href: "/#faq" },
     { label: "Our Process", href: "/services#process" },
-    { label: "Free Claim Review", href: "/contact" },
+    { label: "Free Claim Review", href: INTAKE_URL },
   ],
   Legal: [
     { label: "Privacy Policy", href: "#" },
@@ -41,8 +41,8 @@ export function Footer() {
               Licensed Public Adjusters
             </p>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-cream-200/40">
-              Fighting for American homeowners to get the full insurance settlement
-              they deserve.
+              Fighting for American homeowners and business owners to get the full
+              insurance settlement they deserve.
             </p>
 
             {/* Contact info */}
@@ -60,7 +60,7 @@ export function Footer() {
             <div className="mt-6 inline-flex items-center gap-2 rounded-full bg-forest-800/50 border border-forest-700/30 px-4 py-2">
               <MapPin className="h-3.5 w-3.5 text-gold-500" />
               <span className="text-xs font-medium text-cream-200/50">
-                Serving American Homeowners
+                Serving American Homes &amp; Businesses
               </span>
             </div>
           </div>
@@ -76,6 +76,10 @@ export function Footer() {
                   <li key={link.label}>
                     <Link
                       href={link.href}
+                      {...(link.href.startsWith("http") && {
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                      })}
                       className="text-sm text-cream-200/50 hover:text-gold-400 transition-colors"
                     >
                       {link.label}

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: "%s | S2S Claims",
   },
   description:
-    "Get your FULL insurance settlement without years of fighting. S2S Claims helps Texas homeowners get 3-5X more than initial offers. Free claim review, you only pay if we win.",
+    "Get your FULL insurance settlement without years of fighting. S2S Claims helps Texas homeowners and business owners get 3-5X more than initial offers. Free claim review, you only pay if we win.",
   keywords: [
     "public adjuster Texas",
     "insurance claim help Texas",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "S2S Claims | Get Your FULL Insurance Settlement",
     description:
-      "Licensed Texas public adjusters helping homeowners get 3-5X more than insurance company offers. Free claim review. You only pay if we win.",
+      "Licensed Texas public adjusters helping homeowners and business owners get 3-5X more than insurance company offers. Free claim review. You only pay if we win.",
     type: "website",
     locale: "en_US",
     siteName: "S2S Claims",

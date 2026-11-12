@@ -80,7 +80,7 @@ export function Problem() {
 
           <FadeIn delay={0.15}>
             <p className="mt-4 text-lg leading-relaxed text-forest-800/70">
-              At S2S Claims, we help homeowners get their FULL settlements,
+              At S2S Claims, we help homeowners and business owners get their FULL settlements,
               often 3–5X more than<br />
               the insurance company&apos;s initial offer.
             </p>

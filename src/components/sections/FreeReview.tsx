@@ -12,10 +12,12 @@ const DISCOVERY_POINTS = [
     title: "Your FULL settlement in 90 days",
     description:
       "Without becoming an insurance policy expert or spending months fighting back and forth",
+    note:
+      "Our goal is to settle your claim within 90 days of our inspection. If the carrier hasn't paid what you're owed by then, we don't sit and wait. We escalate your claim to the next step and hold them accountable.",
   },
   {
     icon: TrendingUp,
-    title: "The exact process for 100+ homeowners",
+    title: "The exact process behind 100+ successful claims",
     description:
       "From lowball offers (or $0 payouts) to full settlements averaging $35K–$60K more",
   },
@@ -64,6 +66,11 @@ export function FreeReview() {
                 <p className="mt-2 text-sm leading-relaxed text-forest-800/60">
                   {point.description}
                 </p>
+                {"note" in point && point.note && (
+                  <p className="mt-3 text-sm leading-relaxed text-forest-800/60">
+                    {point.note}
+                  </p>
+                )}
                 <div className="absolute top-4 right-4 font-display text-4xl font-bold text-forest-900/5">
                   {i + 1}
                 </div>
@@ -74,7 +81,7 @@ export function FreeReview() {
 
         <FadeIn delay={0.3} className="mt-12 text-center">
           <p className="mb-6 text-sm font-semibold uppercase tracking-wider text-forest-700/60">
-            This is ONLY for homeowners who are serious about getting their full
+            This is ONLY for home and business owners who are serious about getting their full
             settlement.
           </p>
           <CTAButton />

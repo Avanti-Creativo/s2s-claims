@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/Button";
+import { INTAKE_URL } from "@/lib/utils";
 
 interface CTAButtonProps {
   children?: React.ReactNode;
@@ -10,7 +11,7 @@ export function CTAButton({
   className,
 }: CTAButtonProps) {
   return (
-    <Button href="/contact" size="lg" variant="primary" className={className}>
+    <Button href={INTAKE_URL} size="lg" variant="primary" className={className}>
       {children}
     </Button>
   );
